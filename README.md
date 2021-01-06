@@ -16,7 +16,7 @@ SSO works based upon a trust relationship set up between an application, known a
 In our case, Identity provider i.e., application for managing authentication is SSO-Server.
 Server Providers are the two client application, i.e, they provide service to authenticated clients.
 
-#SSO Workflow:
+# SSO Workflow:
 1. A user browses App1/ App2.
 2. Above application sends a token that contains some information about the user, like their email address, to the SSO-Server application as part of a request to authenticate the user.
 3. SSO-Server first checks to see whether the user has already been authenticated, in which case it will grant the user access to the application and skip to step 5.
